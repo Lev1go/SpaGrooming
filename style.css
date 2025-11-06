@@ -78,7 +78,7 @@ span {
     padding-bottom: 30px;
 }
 .aboutus-text {
-    font-size: 32px;|
+    font-size: 32px;
     font-weight: 400;
     font-family: "Raleway", sans-serif;
     padding-bottom: 60px;
@@ -104,11 +104,11 @@ span {
 .employees-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 115px;
+    gap: 174px;
 }
 .employees-item {
     display: flex;
-    gap: 28px;
+    gap: 115px;
     max-width: 300px;
 }
 .employees-subtitle {
@@ -171,4 +171,19 @@ span {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.footer {
+    background-color: #121212;
+}
+.footer-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 61px;
+}
+.footer-img {
+    padding-top: 36px;
 }
