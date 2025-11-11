@@ -2,6 +2,9 @@ body,ul,p,h1,h2,h3 {
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #EFEFEF
+}
 ul {
     list-style: none;
 }
@@ -22,6 +25,9 @@ a {
     gap: 100px;
     align-items: center;
     text-transform: uppercase;
+}
+.hero {
+    background-color: white;
 }
 .header-link {
     color: white;
@@ -56,6 +62,7 @@ span {
     font-weight: 400;
     font-family: "Oswald", sans-serif;
     border: 1px;
+    border-radius: 5px;
     background-color: #B2FFA6;
     color: black;
     text-transform: uppercase;
@@ -88,28 +95,33 @@ span {
     font-size: 24px;
     font-weight: 400;
     font-family: "Oswald", sans-serif;
-    border: 1px;
+    border: 1px;                        
+    border-radius: 5px;
     background-color: #B2FFA6;
     color: black;
     text-transform: uppercase;
 }
  .employees {
-    display: flex;
+    background-color: white;
 }
 .employees-container {
     display: flex;
-    text-align: center;
     gap: 174px;
+}
+.employees-wrap {
+    margin: 191px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 .employees-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 174px;
+    gap: 115px;
+}
+.employees-listwrap {
+    padding-left: 28px;
 }
 .employees-item {
     display: flex;
-    gap: 115px;
-    max-width: 300px;
 }
 .employees-subtitle {
     font-size: 32px;
@@ -160,20 +172,30 @@ span {
     font-weight: 600;
     font-family: "Raleway", sans-serif;
 }
+.services-wrap {
+    display: flex;
+    justify-content: center;
+}
 .services-link {
     padding: 15px 80px;
     font-size: 24px;
     font-weight: 400;
     font-family: "Oswald", sans-serif;
     border: 3px solid #B2FFA6;
+    border-radius: 5px;
     color: black;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 .footer {
     background-color: #121212;
+}
+.footer-container {
+    
 }
 .footer-title {
     color: white;
@@ -182,8 +204,7 @@ span {
     font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: row-reverse;
-    padding-bottom: 61px;
 }
 .footer-img {
-    padding-top: 36px;
+    padding-bottom: 36px;
 }
